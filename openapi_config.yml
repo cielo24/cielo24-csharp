@@ -1,0 +1,7 @@
+packageName: cielo24
+packageVersion: 1.0.0
+projectName: cielo24
+gitHost: github.com
+gitUserId: cielo24
+gitRepoId: cielo24-csharp
+inputSpec: ../cielo24-openapi/cielo24.yml
