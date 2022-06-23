@@ -116,7 +116,7 @@ Class | Method | HTTP request | Description
 *JobApi* | [**JobInfo**](docs/JobApi.md#jobinfo) | **GET** /job/info | 
 *JobApi* | [**NewJob**](docs/JobApi.md#newjob) | **POST** /job/new | 
 *JobApi* | [**PerformTranscription**](docs/JobApi.md#performtranscription) | **POST** /job/perform_transcription | 
-*JobApi* | [**PerformTranslation**](docs/JobApi.md#performtranslation) | **POST** /job/perform_translation | 
+*JobApi* | [**PerformTranslation**](docs/JobApi.md#performtranslation) | **POST** /job/translate | 
 
 
 <a name="documentation-for-models"></a>

@@ -80,7 +80,13 @@ namespace cielo24.Model
             /// Enum PROFESSIONAL for value: PROFESSIONAL
             /// </summary>
             [EnumMember(Value = "PROFESSIONAL")]
-            PROFESSIONAL = 3
+            PROFESSIONAL = 3,
+
+            /// <summary>
+            /// Enum HIGH for value: HIGH
+            /// </summary>
+            [EnumMember(Value = "HIGH")]
+            HIGH = 4
 
         }
 

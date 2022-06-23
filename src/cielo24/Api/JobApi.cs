@@ -2531,7 +2531,7 @@ namespace cielo24.Api
             }
 
             // make the HTTP request
-            var localVarResponse = this.Client.Post<PerformTranslationResponse>("/job/perform_translation", localVarRequestOptions, this.Configuration);
+            var localVarResponse = this.Client.Post<PerformTranslationResponse>("/job/translate", localVarRequestOptions, this.Configuration);
             if (this.ExceptionFactory != null)
             {
                 Exception _exception = this.ExceptionFactory("PerformTranslation", localVarResponse);
@@ -2627,7 +2627,7 @@ namespace cielo24.Api
             }
 
             // make the HTTP request
-            var localVarResponse = await this.AsynchronousClient.PostAsync<PerformTranslationResponse>("/job/perform_translation", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
+            var localVarResponse = await this.AsynchronousClient.PostAsync<PerformTranslationResponse>("/job/translate", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
 
             if (this.ExceptionFactory != null)
             {
